@@ -1,0 +1,23 @@
+EXTRACTION_PROMPT = """
+You are given the OCR text of a U.S. W-2 form. Return STRICTLY valid JSON (no explanation, no trailing commas)
+with the top-level object containing keys: "employee", "employer", "federal", "state_local", "other", "confidence".
+- "employee": { "name": string|null, "address": {"street":string|null,"city":string|null,"state":string|null,"zip":string|null}, "ssn": string|null }.
+  Mask SSN to last 4 (format ***-**-1234) in the JSON output.
+- "employer": { "name": string|null, "address": {...same shape...}, "ein": string|null }.
+  Mask EIN to last 4 digits (format **-1234 or ****1234).
+- "federal": keys "box1","box2","box3",... up to "box14" as numbers or null; if there are labels add them in "labels" map.
+- "state_local": a list of state entries. Each entry: { "state_code":string|null,"employer_state_id":string|null,"state_wages":number|null,"state_tax":number|null,"locality_name":string|null,"locality_wages":number|null,"locality_tax":number|null }.
+- "other": dictionary of other labeled boxes or checkboxes present with label->value.
+- "confidence": a number 0-1 representing model's confidence in extraction.
+
+RULES:
+1. Emit ONLY JSON. Do not include extra text.
+2. When numeric boxes are present, coerce to numbers (no commas in JSON numbers).
+3. If a field is missing or unreadable, set it to null.
+4. Mask SSN/EIN before returning (last-4 only).
+5. Provide minimal parse warnings in a "parse_warnings" list inside the top-level object if applicable.
+
+Below is the OCR text delimited by triple backticks. Extract fields from it.
+OCR_TEXT:
+```{OCR_TEXT}```
+"""

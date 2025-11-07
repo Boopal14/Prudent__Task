@@ -1,0 +1,33 @@
+{
+  "output": "Of course! Here is a clear and comprehensive summary of the contents of a typical paystub, broken down into its main sections.\n\nA **paystub** (also known as a payslip or wage statement) is a document that details an employee's compensation for a specific pay period. It shows the journey from your total earnings (gross pay) to what you actually receive (net pay).\n\nHere are the key sections you'll find on almost every paystub:\n\n---\n\n### 1. General Information\nThis section identifies the \"who, what, and when\" of the payment.\n*   **Employee Information:** Your name, address, and employee ID number.\n*   **Employer Information:** Your employer's name and address.\n*   **Pay Period:** The specific date range for which you are being paid (e.g., 09/01/2023 - 09/15/2023).\n*   **Pay Date:** The date the payment was issued to you.\n\n---\n\n### 2. Gross Pay (or \"Earnings\")\nThis is your **total compensation earned *before* any deductions are taken out**. It's the top-line number.\n\n*   **Rate:** Your hourly wage or salary amount.\n*   **Hours:** The number of hours worked during the pay period. This is often broken down into:\n    *   **Regular:** Standard hours worked.\n    *   **Overtime (OT):** Hours worked beyond the standard workweek, typically paid at a higher rate (e.g., 1.5 times the regular rate).\n*   **Other Earnings:** This can include bonuses, commissions, tips, holiday pay, or sick pay.\n\nMost paystubs show two columns for earnings: **\"Current\"** (for this pay period) and **\"YTD\" (Year-to-Date)**, which is a running total for the current calendar year.\n\n---\n\n### 3. Deductions\nThis is the most detailed section, showing everything that was subtracted from your gross pay. It's typically split into three categories:\n\n#### A. Pre-Tax Deductions\nThese are amounts taken out of your gross pay *before* income taxes are calculated. This lowers your taxable income, which can reduce the amount of tax you owe.\n*   **Health Insurance:** Premiums for medical",
+  "raw": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Of course! Here is a clear and comprehensive summary of the contents of a typical paystub, broken down into its main sections.\n\nA **paystub** (also known as a payslip or wage statement) is a document that details an employee's compensation for a specific pay period. It shows the journey from your total earnings (gross pay) to what you actually receive (net pay).\n\nHere are the key sections you'll find on almost every paystub:\n\n---\n\n### 1. General Information\nThis section identifies the \"who, what, and when\" of the payment.\n*   **Employee Information:** Your name, address, and employee ID number.\n*   **Employer Information:** Your employer's name and address.\n*   **Pay Period:** The specific date range for which you are being paid (e.g., 09/01/2023 - 09/15/2023).\n*   **Pay Date:** The date the payment was issued to you.\n\n---\n\n### 2. Gross Pay (or \"Earnings\")\nThis is your **total compensation earned *before* any deductions are taken out**. It's the top-line number.\n\n*   **Rate:** Your hourly wage or salary amount.\n*   **Hours:** The number of hours worked during the pay period. This is often broken down into:\n    *   **Regular:** Standard hours worked.\n    *   **Overtime (OT):** Hours worked beyond the standard workweek, typically paid at a higher rate (e.g., 1.5 times the regular rate).\n*   **Other Earnings:** This can include bonuses, commissions, tips, holiday pay, or sick pay.\n\nMost paystubs show two columns for earnings: **\"Current\"** (for this pay period) and **\"YTD\" (Year-to-Date)**, which is a running total for the current calendar year.\n\n---\n\n### 3. Deductions\nThis is the most detailed section, showing everything that was subtracted from your gross pay. It's typically split into three categories:\n\n#### A. Pre-Tax Deductions\nThese are amounts taken out of your gross pay *before* income taxes are calculated. This lowers your taxable income, which can reduce the amount of tax you owe.\n*   **Health Insurance:** Premiums for medical"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 9,
+      "candidatesTokenCount": 502,
+      "totalTokenCount": 2007,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9
+        }
+      ],
+      "thoughtsTokenCount": 1496
+    },
+    "modelVersion": "gemini-2.5-pro",
+    "responseId": "XI4NacPJLbT2juMPpp3nwQs"
+  }
+}

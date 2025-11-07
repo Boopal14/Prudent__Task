@@ -1,0 +1,33 @@
+{
+  "output": "```json\n{\n  \"form_variant\": \"W-2\",\n  \"employee_ssn\": \"758-58-5787\",\n  \"employer_ein\": \"78-8778788\",\n  \"wages_tips_other_comp\": \"80000.00\",\n  \"federal_income_tax_withheld\": \"0000.00\",\n  \"social_security_wages\": \"0000.00\",\n  \"social_security_tax_withheld\": \"4960.00\",\n  \"medicare_wages_and_tips\": \"80000.00\",\n  \"medicare_tax_withheld\": \"1160.00\",\n  \"social_security_tips\": null,\n  \"allocated_tips\": null,\n  \"dependent_care_benefits\": null,\n  \"nonqualified_plans\": null,\n  \"box_12\": [],\n  \"statutory_employee\": false,\n  \"retirement_plan\": false,\n  \"third_party_sick_pay\": false,\n  \"other\": null,\n  \"state_information\": [\n    {\n      \"state\": \"AL\",\n      \"employer_state_id\": \"877878878\",\n      \"state_wages\": \"0000.00\",\n      \"state_income_tax\": \"3835.00\"\n    }\n  ],\n  \"local_information\": [],\n  \"employer\": {\n    \"name\": \"DesignNext\",\n    \"address\": {\n      \"street\": \"Katham Dorbosto, Kashiani, Gopalganj\",\n      \"city\": \"Gopalgani\",\n      \"state\": \"AK\",\n      \"zip\": \"8133\"\n    }\n  },\n  \"employee\": {\n    \"first_name\": \"Jesan\",\n    \"last_name\": \"Rahaman\",\n    \"address\": {\n      \"street\": \"Katham Dorbosto, Kashiani, Gopalganj\",\n      \"city\": \"Gopalganj\",\n      \"state\": \"AK\",\n      \"zip\": \"8133\"\n    }\n  },\n  \"control_number\": null\n}\n```",
+  "raw": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "```json\n{\n  \"form_variant\": \"W-2\",\n  \"employee_ssn\": \"758-58-5787\",\n  \"employer_ein\": \"78-8778788\",\n  \"wages_tips_other_comp\": \"80000.00\",\n  \"federal_income_tax_withheld\": \"0000.00\",\n  \"social_security_wages\": \"0000.00\",\n  \"social_security_tax_withheld\": \"4960.00\",\n  \"medicare_wages_and_tips\": \"80000.00\",\n  \"medicare_tax_withheld\": \"1160.00\",\n  \"social_security_tips\": null,\n  \"allocated_tips\": null,\n  \"dependent_care_benefits\": null,\n  \"nonqualified_plans\": null,\n  \"box_12\": [],\n  \"statutory_employee\": false,\n  \"retirement_plan\": false,\n  \"third_party_sick_pay\": false,\n  \"other\": null,\n  \"state_information\": [\n    {\n      \"state\": \"AL\",\n      \"employer_state_id\": \"877878878\",\n      \"state_wages\": \"0000.00\",\n      \"state_income_tax\": \"3835.00\"\n    }\n  ],\n  \"local_information\": [],\n  \"employer\": {\n    \"name\": \"DesignNext\",\n    \"address\": {\n      \"street\": \"Katham Dorbosto, Kashiani, Gopalganj\",\n      \"city\": \"Gopalgani\",\n      \"state\": \"AK\",\n      \"zip\": \"8133\"\n    }\n  },\n  \"employee\": {\n    \"first_name\": \"Jesan\",\n    \"last_name\": \"Rahaman\",\n    \"address\": {\n      \"street\": \"Katham Dorbosto, Kashiani, Gopalganj\",\n      \"city\": \"Gopalganj\",\n      \"state\": \"AK\",\n      \"zip\": \"8133\"\n    }\n  },\n  \"control_number\": null\n}\n```"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 472,
+      "candidatesTokenCount": 535,
+      "totalTokenCount": 1968,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 472
+        }
+      ],
+      "thoughtsTokenCount": 961
+    },
+    "modelVersion": "gemini-2.5-pro",
+    "responseId": "VpMNaf-qG_yM4-EPlqXD-Q8"
+  }
+}
