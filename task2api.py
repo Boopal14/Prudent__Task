@@ -6,29 +6,23 @@ from pydantic import BaseModel, Field
 from typing import List
 from task1 import findpricegappair
 
-# ===================================================
-# CONFIGURATION
-# ===================================================
-OMDB_API_KEY = "ee55d25a"  # ✅ Your working OMDb API key
-OMDB_BASE_URL = "http://www.omdbapi.com/"  # ✅ Correct OMDb base URL
+
+OMDB_API_KEY = "ee55d25a"  
+OMDB_BASE_URL = "http://www.omdbapi.com/"  
 
 app = FastAPI(
     title="Price Gap Pair & Movie API",
     version="1.0.0",
-    default_response_class=ORJSONResponse  # ✅ Enables clean JSON output
+    default_response_class=ORJSONResponse  
 )
 
-# ===================================================
-# DATA MODELS
-# ===================================================
+
 class PriceGapInput(BaseModel):
     nums: List[int] = Field(..., description="List of integers")
     k: int = Field(..., ge=0, description="Non-negative integer")
 
 
-# ===================================================
-# ENDPOINT 1: PRICE GAP PAIR (Task 1 Logic)
-# ===================================================
+
 @app.post("/api/price-gap-pair", response_class=ORJSONResponse)
 async def price_gap_pair(data: PriceGapInput):
     
@@ -38,7 +32,7 @@ async def price_gap_pair(data: PriceGapInput):
             return {"pair": None, "values": None}
 
         i, j = result
-        # ✅ Cleanly formatted JSON output
+        
         return ORJSONResponse(
             content={
                 "pair": [i, j],
@@ -64,7 +58,7 @@ async def get_movies(
         data = response.json()
 
         if data.get("Response") == "False":
-            # Gracefully handle no results
+            
             return JSONResponse(content={
                 "page": page,
                 "total_pages": 0,
@@ -82,7 +76,7 @@ async def get_movies(
                 OMDB_BASE_URL, params={"i": imdb_id, "apikey": OMDB_API_KEY}
             ).json()
 
-            # Skip if movie details are invalid
+            
             if movie_details.get("Response") == "False":
                 continue
 
