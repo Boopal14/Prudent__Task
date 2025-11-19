@@ -1,0 +1,11 @@
+Using the extracted JSON, generate short bullet-pointed insights:
+
+• address sanity checks  
+• withholding % checks  
+• Social Security cap proximity  
+• multi-state income  
+• inconsistencies between Box 1, Box 3, Box 5  
+• any missing tax boxes  
+• potential follow-up suggestions  
+
+Return an array of plain strings.

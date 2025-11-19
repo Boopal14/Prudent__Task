@@ -1,0 +1,44 @@
+```json
+{
+  "employee": {
+    "name": "Jesan Rahaman",
+    "street": "Katham Dorbosto, Kashiani, Gopalganj",
+    "city": "Gopalganj",
+    "state": "AK",
+    "zip": "8133",
+    "ssn_last4": "5787"
+  },
+  "employer": {
+    "name": "DesignNext",
+    "street": "Katham Dorbosto, Kashiani, Gopalganj",
+    "city": "Gopalganj",
+    "state": "AK",
+    "zip": "8133",
+    "ein_last4": null
+  },
+  "federal_boxes": {
+    "1_wages": 0.00,
+    "2_federal_tax": null,
+    "3_ss_wages": 4960.00,
+    "4_ss_tax": null,
+    "5_medicare_wages": 80000.00,
+    "6_medicare_tax": 1160.00,
+    "7_ss_tips": null,
+    "8_allocated_tips": null,
+    "10_dependent_care": null,
+    "12": {},
+    "14": ""
+  },
+  "state_local": [
+    {
+      "state": "AL",
+      "employer_state_id": "877878878",
+      "state_wages": 80000.00,
+      "state_tax": 3835.00,
+      "local_wages": null,
+      "local_tax": null,
+      "locality_name": null
+    }
+  ]
+}
+```
