@@ -34,7 +34,7 @@ I have tested both APIs using Swagger.
 task3>python cli.py file "sample_w2.jpg" -out w2_result.json 
 ```
 
-The input image file is also available inside this task folder itself which is `paystub.jpg`.
+The input image file is also available inside this task folder itself which is `"task3\sample_w2.jpg"`.
 
 ## Output
 
