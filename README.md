@@ -31,7 +31,7 @@ I have tested both APIs using Swagger.
 
 **To execute this file:**
 ```bash
-python w2_parser.py --file paystub.jpg
+task3>python cli.py file "sample_w2.jpg" -out w2_result.json 
 ```
 
 The input image file is also available inside this task folder itself which is `paystub.jpg`.
